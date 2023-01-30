@@ -20,10 +20,10 @@ public class GateAppearaence : MonoBehaviour
     [SerializeField] private Color _colorPositive;
     [SerializeField] private Color _colorNegative;
 
-    //»конки увеличени€ / уменьшени€ ширины
+    
     [SerializeField] private GameObject _expandLable;
     [SerializeField] private GameObject _shrinkLable;
-    //»конки увеличени€ / уменьшени€ высоты
+   
     [SerializeField] private GameObject _upLable;
     [SerializeField] private GameObject _downLable;
     public void UpdateVisual(DeformationType deformationType, int value)
